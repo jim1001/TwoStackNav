@@ -1,4 +1,4 @@
-script "app"
+﻿script "app"
 
 command PreloadApplication
   # Perform operations before stacks, extensions, and externals in app.yml are loaded.
@@ -37,11 +37,9 @@ end InitializeApplication
 
 
 command OpenApplication
-  # Called after InitializeApplication.
-  # Open UI stack
-
-  # Open the starter app sample window UI stack
-  go stack "LevureSampleWindow"
+   # Called after InitializeApplication.
+   # Open UI stack
+   go stack "Stack1"
 end OpenApplication
 
 
